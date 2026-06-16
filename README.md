@@ -1,6 +1,6 @@
-# FACET Evaluation Code
+# Mental test Evaluation Code
 
-This repository contains the mental test evaluation code for FACET.
+This repository contains the evaluation code for mental test.
 
 The code is organized into two parts:
 
@@ -14,7 +14,7 @@ Generated outputs, caches, logs, notebooks, `.env` files, historical Excel files
 ## Repository Structure
 
 ```text
-code_FACET/
+code_mental_test/
 ├── objective_eval/
 │   └── objective_scoring.py          # Rule-based scoring functions for objective evaluation
 │
@@ -49,7 +49,7 @@ pip install pandas openpyxl tqdm python-dotenv openai trueskill
 
 ## Environment Variables
 
-API keys are read from environment variables and are not hardcoded in the cleaned code.
+API keys are read from environment variables and are not hardcoded in the code.
 
 ### Subjective ELO Evaluation
 
@@ -160,7 +160,7 @@ These directories are kept in the repository structure, but generated files insi
 
 ## Notes for Reviewers
 
-This code package is intended to provide the cleaned implementation of the FACET evaluation pipeline.
+This code package is intended to provide the implementation of the mental test evaluation pipeline.
 
 For objective evaluation, the provided script implements rule-based scoring against reference answers. It does not use an LLM judge.
 
