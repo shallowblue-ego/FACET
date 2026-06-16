@@ -1,6 +1,6 @@
-# Mental test Evaluation Code
+# FACET Evaluation Code
 
-This repository contains the evaluation code for mental test.
+This repository contains the evaluation code for FACET.
 
 The code is organized into two parts:
 
@@ -160,7 +160,7 @@ These directories are kept in the repository structure, but generated files insi
 
 ## Notes for Reviewers
 
-This code package is intended to provide the implementation of the mental test evaluation pipeline.
+This code package is intended to provide the implementation of the FACET evaluation pipeline.
 
 For objective evaluation, the provided script implements rule-based scoring against reference answers. It does not use an LLM judge.
 
