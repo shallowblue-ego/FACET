@@ -1,0 +1,285 @@
+{
+  "num_samples": 20,
+  "samples": [
+    {
+      "id": 1,
+      "dim": "Apparent Emotion Recognition",
+      "zh": {
+        "question": "最近我刚在大城市找到工作。我一直努力想融入同事们的圈子。每次聚餐我都主动参加，工作上也尽心尽力帮忙，可他们总是在我面前聊一些我不了解的话题，或者提到一些我没参与过的活动。昨天听到他们在茶水间讨论周末的聚会，看到我走过来就突然停止了话题，那一瞬间我感觉自己永远都是个外人，在这个大城市永远只会是漂泊的浮萍罢了…",
+        "answer": "孤独",
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "Recently, I just found a job in a big city. I have been trying hard to fit in with my colleagues. I take the initiative to join every group dinner and do my best to help with work, but they always talk about topics I don't understand in front of me, or mention activities I haven't participated in. Yesterday, I heard them discussing a weekend gathering in the pantry, but when they saw me coming, they suddenly stopped talking. In that moment, I felt that I would always be an outsider, and in this big city, I would always just be a drifting waterweed.",
+        "answer": "loneliness",
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 2,
+      "dim": "Apparent Emotion Recognition",
+      "zh": {
+        "question": "老公最近总是很晚才回家，说是公司项目紧急。昨天我无意中看到他和一个女同事的聊天记录，虽然只是工作内容，但语气看上去可亲密了。给他洗衣服的时候，我闻到他的衬衫上有陌生的香水味。晚上睡前似乎还在背着我看手机消息。想到这些我就吃不下饭睡不着觉，我对他这么好居然这样对我。一点都不想跟他说话，看到他那副样子就觉得心里堵得难受想大吼大叫。",
+        "answer": "愤怒",
+        "secondary_answer": "怨恨"
+      },
+      "en": {
+        "question": "My husband has been coming home very late recently, saying that there is an urgent project at work. Yesterday, I happened to see his chat history with a female colleague. Although it was just work-related, their tone seemed really close. When I was doing his laundry, I smelled an unfamiliar perfume on his shirt. Before going to bed at night, it seemed like he was still secretly checking his phone messages behind my back. Thinking about all this makes me lose my appetite and unable to sleep. I treat him so well, yet he treats me like this. I don’t even want to talk to him at all, and seeing him like that makes me feel so suffocated inside that I just want to yell and scream.",
+        "answer": "anger",
+        "secondary_answer": "resentment"
+      }
+    },
+    {
+      "id": 3,
+      "dim": "Hidden Emotion Recognition",
+      "zh": {
+        "question": "背景：小王和老公结婚三年了，最近她发现老公经常和前女友微信聊天，还会偷偷删除聊天记录。今天晚上，小王又看到老公在和前女友聊天。对话：小王：你又在和她聊什么呢？老公：就随便聊聊，你别多想。小王：聊什么需要删记录啊？老公：我删什么了？我就是习惯性清理手机内存。小王：哦，原来是这样啊，那你们聊得这么开心，要不要我回避一下啊？请问小王在此时说的话背后隐藏着什么样的情绪？",
+        "answer": "不满/愤怒",
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "Background: Mary has been married to her husband for three years. Recently, she discovered that her husband often chats with his ex girlfriend on Facebook and even secretly deletes chat records. Tonight, Mary saw her husband chatting with his ex girlfriend again. Dialogue: Mary: What are you talking about with her again? Husband: Just chat casually, don't overthink it. Mary: Why do we need to delete records? Husband: What did I delete? I just habitually clean my phone's memory. Mary: Oh, I see. You guys are chatting so happily, do you want me to avoid it? May I ask what emotions are hidden behind what Mary is saying at this moment?",
+        "answer": "dissatisfaction/anger",
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 4,
+      "dim": "Hidden Emotion Recognition",
+      "zh": {
+        "question": "背景：老王和妻子结婚十五年，最近妻子经常加班到很晚。今晚又是如此，老王一个人吃完晚饭后给妻子发消息。对话：老王：你什么时候回来？饭我给你热着呢。妻子：可能还要一会，你先睡吧，别等我了。老王：好的，那你注意身体，别太累了。妻子：嗯，知道了。老王：最近你们公司是不是特别忙？感觉你天天都这么晚。妻子：是挺忙的，新项目压力大。老王：那...要不周末我们出去走走？好久没一起逛过了。妻子：看情况吧，周末可能还要去公司。老王：哦，那你忙你的，我就随便说说。问题：老王在此时说的话背后隐藏着什么样的情绪？",
+        "answer": "落寞/失落+担忧",
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "Background: Alex and his wife have been married for fifteen years, and recently his wife often works overtime until very late. Tonight it was the same again, Alex sent a message to his wife after finishing dinner alone. Dialogue: Alex: When will you be back? I'll heat up the food for you. Wife: Maybe it'll take a while, go to sleep first, don't wait for me. Alex: Okay, then take care of your health and don't get too tired. Wife: Hmm, got it. Alex: Has your company been particularly busy lately? I feel like you're always so late every day. Wife: It's quite busy, there's a lot of pressure from the new project. Alex: So How about we go out for a walk this weekend? It's been a long time since we last went shopping together. Wife: It depends, I may have to go to the company on the weekend. Alex: Oh, then you're busy, I'll just talk casually. Question: What emotions are hidden behind what Alex is saying at this moment?",
+        "answer": "desolation/dejection+worry",
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 5,
+      "dim": "Emotion Prediction",
+      "zh": {
+        "question": "情景描述:林果果（18岁，高三生）趁周末回家复习，哥哥林宇（21岁，大二）带了两个同学来家里一起讨论项目。林宇不小心把硬盘里的旧家庭录像投到了大屏幕，无意间播出果果十岁时披床单模仿公主走秀的片段，同学们哄笑，说“你妹妹小时候也是够抽象的”，而这一幕正好被果果看到了。此时她最可能感到_____。",
+        "answer": "羞耻/尴尬",
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "Lucy (18 years old, third year of high school) went home to review on the weekend, while his brother Mike (21 years old, sophomore) brought two classmates to discuss projects together. Mike accidentally uploaded the old home video from his hard drive onto the big screen, and accidentally played a clip of Lucy imitating a princess walking show while wearing a bed sheet when he was ten years old. His classmates laughed and said, 'Your sister was also abstract enough when she was a child,' and this scene happened to be seen by Lucy. At this moment, she is most likely to feel _____.",
+        "answer": "shame/embarrassment",
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 6,
+      "dim": "Emotion Prediction",
+      "zh": {
+        "question": "李珺（35岁，社区医院护士）晚上下班提着刚抢购的打折鸡翅回家，客厅里丈夫正和婆婆视频，嘀咕她爱网购乱花钱。餐桌上他买的新游戏机外包装散落，孩子作业没人辅导。丈夫看到她进门，只说“顺便把我球衣洗了，周末兄弟聚”。此时李珺最可能感到_____。",
+        "answer": "怨恨/愤怒+失望",
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "Mary (35 years old, community hospital nurse) came home from work at night with a discounted chicken wing she had just bought. In the living room, her husband was video chatting with his mother, muttering that she loved shopping online and spending money recklessly. The packaging of the new game console he bought was scattered on the dining table, and there was no one to tutor the child's homework. My husband saw her enter and just said, 'By the way, wash my jersey. Let's get together as brothers this weekend.'. At this moment, Mary is most likely to feel _____.",
+        "answer": "resentment/anger+disappointment",
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 7,
+      "dim": "Social Adequacy",
+      "zh": {
+        "question": "好友结婚邀请你当伴郎，但你发现新郎在单身派对上和其他女性有过界行为，但你不确定他们的关系。你和新郎新娘是大学同学，你们关系很好。婚礼前一天新娘单独问你：“他最近有什么异常吗？我总感觉不对劲。”。此时你应该？\n1. 如实告诉新娘你看到的情况\n2. 说没发现什么异常一切正常\n3. 暗示新娘应该直接问新郎\n4. 转移话题说婚前焦虑很正常\n5. 建议她如果有疑虑就延迟婚礼\n6. 说看到新郎很紧张可能是压力大",
+        "answer": 5,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "You are the best man for a college friend's wedding. At the bachelor party, you observe the groom engaging in promiscuous behavior, though the exact nature of his relationship boundaries is unknown to you. The day before the ceremony, the bride—also a close friend—approaches you privately, expressing suspicion and asking if you have noticed anything unusual. At this moment, should you?\n1. Truthfully disclose the observed behavior to the bride.\n2. Deny any knowledge of abnormalities to maintain the wedding's status quo.\n3. Suggest the bride address her concerns directly with the groom (Pragmatic Deflection).\n4. Attribute her concerns to standard pre-marital anxiety.\n5. Advise postponing the ceremony if significant doubts persist (Optimal Adequacy).\n6. Characterize the groom's behavior as stress-induced nervousness.",
+        "answer": 5,
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 8,
+      "dim": "Social Adequacy",
+      "zh": {
+        "question": "情景描述: \n在纽约深夜，留学生梅刚被导师在组会上严厉批评，精心准备的论文被要求推倒重来，她感到前所未有的挫败和委屈。她强忍着泪水，给远在山东农村、文化观念传统且身体欠佳的母亲打完视频电话“报平安”。刚挂断，美国室友Sarah轻声敲开她的房门，关切地问：“Hey, you okay? Need anything?” 在这两个截然不同的角色面前，梅最合适的回应方式是：\n1. 对母亲淡定报平安:“妈,我挺好的,只是有点累,早点休息。”对Sarah低声求助:“Can you stay with me for a while? I got harsh feedback.”\n2. 对母亲实话实说：“妈，我论文被导师全盘否定了，可能毕不了业，我压力很大。”；对Sarah则冷淡地关上门说：“I’m fine, just need some sleep.”\n3. 对母亲报喜不报忧：“妈，导师夸我论文有进步呢，您放心吧。”；对Sarah则强颜欢笑，摆摆手说：“Thanks for asking, but I’m totally fine! Just tired.”\n4. 对母亲坦诚但有所保留：“妈，论文遇到点小麻烦，导师提了些修改意见，我会解决的，您别挂心。”；对Sarah则微笑致谢说明自己的困扰。\n5. 对母亲隐瞒说：“没什么事，就是有点想家了。”；对Sarah则详细倾诉导师的批评，并一起分析和抱怨其中的不公之处，寻求共鸣。",
+        "answer": 4,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "Scenario description:\nLate at night in New York, international student Megan was harshly criticized by her supervisor at a group meeting, and her carefully prepared paper was asked to start over. She felt an unprecedented sense of frustration and injustice. She held back her tears and made a video call to her mother, who was far away in rural Shandong, had a traditional cultural concept and was in poor health, to \"report her safety\". As soon as she hung up, her American roommate Sarah softly knocked on her door and asked with concern, \"Hey, you okay? Need anything?\" In the face of these two completely different characters, Mei's most appropriate response was:\n1. Calm down and report her safety to her mother: \"Mom, I'm fine, just a little tired, go to bed early.\" Whispered to Sarah for help: \"Can you stay with me for a while? I got harsh feedback.\"\n2. To be honest with her mother, \"Mom, my thesis was completely rejected by my supervisor, and I may not be able to graduate. I am under a lot of pressure; I'm fine, just need some sleep, \"Sarah said coldly as she closed the door.\"\n3. Report good news to her mother instead of bad news: \"Mom, my supervisor praised me for making progress in my paper. Don't worry; To Sarah, she forced a smile and waved her hand, saying, \"Thank you for asking, but I'm completely fine! Just tired.\"\n4. Be honest but reserved with her mother: \"Mom, I encountered some minor problems with the paper. My supervisor provided some revision suggestions, and I will solve them. Don't worry about it; She smiled and thanked Sarah to express her distress.\n5. Concealing from her mother, \"It's nothing, just a little homesick; To Sarah, she confided in detail about her mentor's criticism and analyzed and complained about the unfairness together, seeking resonance.",
+        "answer": 4,
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 9,
+      "dim": "Crisis Recognition",
+      "zh": {
+        "question": "小瑞，15岁，高一新生。近期，他与母亲因补习班问题屡次争执。母亲坚持报名昂贵的强化班，而小瑞觉得自己难以跟上，每次都顶着极大压力回家。一天深夜，母亲在小瑞房门外隐约听到他低声啜泣，说：“要是不用来上学就好了。”隔天，小瑞在周记里写道：“总想逃，可又不知该往哪儿走。”同学透露，他常放学后一个人靠在操场围栏发呆。母亲收拾书桌时，发现一张皱巴巴的纸条，上面只有一句话：“如果我消失，会有人在意吗？”她惊慌不知所措，担心责骂会激化矛盾，便对家里其他人只字未提。与此同时，小瑞的同桌注意到他的笔袋里多了一把小刀，问起原因时，小瑞含糊解释说是裁纸用的，但下一节课又主动问同学要不要一起去看篮球赛。老师家访时发现，他的成绩并未明显下滑，但他课后常抄写歌词来平复情绪。母亲回忆，前阵子小瑞还兴致勃勃策划过家庭旅行，却莫名放弃了这个想法。",
+        "answer": "二级",
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "John, 15 years old, a freshman in high school. Recently, he has had multiple disputes with his mother over the issue of tutoring classes. My mother insists on enrolling in expensive intensive classes, but John finds it difficult to keep up and always comes home under great pressure. One late night, his mother faintly heard him sobbing softly outside John's room door, saying, \"If only he didn't have to come to school.\" The next day, John wrote in his weekly journal, \"I always want to escape, but I don't know where to go.\" A classmate revealed that he often leaned against the fence on the playground alone and daydreamed after school. When my mother was tidying up her desk, she found a crumpled piece of paper with only one sentence on it: \"If I disappear, will anyone care?\" She was panicked and at a loss, worried that scolding would escalate the conflict, so she didn't mention a word to the rest of the family. At the same time, John's desk mate noticed that there was a small knife in his pencil case. When asked about the reason, John vaguely explained that it was for cutting paper, but in the next class, he took the initiative to ask his classmates if they wanted to go watch a basketball game together. During the teacher's home visit, it was found that his grades did not significantly decline, but he often copied lyrics after class to calm his emotions. My mother recalled that a while ago, John was enthusiastic about planning a family trip, but inexplicably gave up the idea.",
+        "answer": "Level 2",
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 10,
+      "dim": "Crisis Recognition",
+      "zh": {
+        "question": "周薇，女，28岁，广告文案。两个月前绩效考核被评为“边缘淘汰”，上周正式收到裁员邮件，她把工牌锁进抽屉后发了条朋友圈：“被删除的句子没人会想起。”朋友安慰，她仅回复一个微笑表情。自大一拿到市级写作奖后，她一直靠文字证明自己，这次被辞退让她觉得“连字都不要我了”。三周前，她在二手网站拍下一套儿童生日用的小型氦气瓶和硅胶导管，备注写“做手工气球”，签收凭证显示货物已放在公寓储物柜。她在平板里收藏了《氦气窒息无痛指南》的截图和《氦气面罩DIY方法》的网页，还用记事本列出“步骤：1.耳机播放海浪声 2.胶带密封接口”。然而每当浏览到最后一步，她都会加一句“待定”。晚上失眠时，她会制作求职海报模板，第二天却躺在床上取消投递。上周社群读书会招募志愿者，她主动报名做推文排版，并在群里热心指导新人：“别怕，错字改了就行。”室友观察到她桌面同时贴着“下一份工作想写什么”的便利贴和“B计划：结束句号”字条。母亲来电提到老家邻居孩子要参加作文比赛，周薇答应周末帮改稿，她说“至少还能让别人用到我的词”。吃饭时她把两片安眠药掰成四份说“省着点”，没有出现过量行为。昨日，她把氦气瓶搬到衣柜角落，上锁，并在备忘里提醒“勿让清洁阿姨碰”。求助热线记录显示，她询问“窒息过程会疼吗”，随后补充“我暂时不会做，只是想知道”。热线督导记录其通话后情绪趋于稳定，表示“先把求职表交了再说”。",
+        "answer": "三级",
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "Vivian, female, 28 years old, advertising copywriter. Two months ago, she was rated as \"marginal elimination\" in her performance evaluation. Last week, she officially received a layoff email. After locking her work badge in the drawer, she posted a message on her Moments: \"No one will remember the deleted sentence.\" Her friend comforted her, and she only replied with a smile. After winning the city level writing award from Da Yi, she has been relying on words to prove herself. This dismissal made her feel like 'I don't even need words anymore'. Three weeks ago, she took a photo of a set of small helium bottles and silicone tubes for children's birthdays on a second-hand website, with a note stating \"handmade balloons\". The receipt showed that the goods had been placed in the apartment locker. She collected screenshots of the \"Painless Guide to Helium Suffocation\" and the webpage of the \"DIY Method for Helium Mask\" on her tablet, and also listed the \"steps: 1. Play ocean waves through headphones 2. Seal the interface with tape\" in a notepad. However, every time she browses to the last step, she adds a sentence of 'to be determined'. When she had insomnia at night, she would make job poster templates, but the next day she would lie in bed and cancel the submission. Last week, the community book club recruited volunteers. She volunteered to do tweet layout and enthusiastically guided newcomers in the group: \"Don't be afraid, just correct the typos.\" Her roommate noticed that there were also sticky notes on her desk saying \"What do you want to write about for your next job\" and a note saying \"Plan B: End Period\". My mother called and mentioned that the neighbor's child from my hometown is going to participate in an essay competition. Vivian promised to help revise the manuscript over the weekend, saying, 'At least I can still let others use my words.'. During the meal, she broke two sleeping pills into four parts and said 'save it', without any excessive behavior. Yesterday, she moved the helium cylinder to the corner of the wardrobe, locked it, and reminded the cleaning lady in a memo not to touch it. According to the records of the help hotline, she asked, 'Will the suffocation process hurt?' and then added, 'I won't do it temporarily, I just want to know.'. The hotline supervisor recorded that his emotions stabilized after the call and said, 'Please submit the job application form first.'.",
+        "answer": "Level 3",
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 11,
+      "dim": "Emotion Matching",
+      "zh": {
+        "question": "用户：和男朋友约好周末去游乐园，结果他突然说临时要陪兄弟打游戏。我准备了很久的约会计划，现在特别失望...",
+        "answer": null,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "User: I had planned to go to an amusement park with my boyfriend on the weekend, but he suddenly said he wanted to play games with his brother temporarily. I have prepared a long date plan and now I am particularly disappointed ..",
+        "answer": null,
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 12,
+      "dim": "Emotion Matching",
+      "zh": {
+        "question": "用户：转学到新班级一个月了，每次小组讨论时大家都自然地形成固定搭档，我只能等老师分配。今天体育课分组时，明明还缺一个人，却没人主动叫我加入，最后是老师硬把我塞进组的。",
+        "answer": null,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "User: I have been transferring to a new class for a month now, and during each group discussion, everyone naturally forms a fixed partner. I can only wait for the teacher to assign. Today during the physical education class grouping, although there was still one person missing, no one took the initiative to ask me to join. In the end, the teacher forced me into the group.",
+        "answer": null,
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 13,
+      "dim": "Empathetic Understanding",
+      "zh": {
+        "question": "用户：结婚纪念日那天我特意请假准备了烛光晚餐，结果老公加班到十点才回来，连礼物都忘了带。我强撑着笑脸吃完这顿饭，但心里特别委屈——他明明上周还提醒同事要给妻子过生日。",
+        "answer": null,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "User: On our anniversary, I took the day off and prepared a candlelight dinner. My husband came home at 10 p.m. with no gift. I forced myself to smile through the whole dinner, but inside I was deeply hurt. He had even reminded a colleague just last week to remember his wife's birthday.",
+        "answer": null,
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 14,
+      "dim": "Empathetic Understanding",
+      "zh": {
+        "question": "用户： 我这次月考数学只考了65分，妈妈看到成绩单后立刻把手机没收了，说下次必须考到90分才还给我。可是我已经很努力了，可就是考不起来，现在感觉特别无助...",
+        "answer": null,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "User: I only scored 65 points in the monthly math exam this time. When my mom saw the report card, she immediately confiscated her phone and said she must score 90 points next time before returning it to me. But I have tried very hard, but I just can't get into the exam, and now I feel particularly helpless ..",
+        "answer": null,
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 15,
+      "dim": "Emotion Deepening",
+      "zh": {
+        "question": "用户：最近公司新来了一个年轻同事，领导总是表扬他工作能力强，还经常让他负责重要项目。虽然我也在努力，但感觉被忽视了，心里特别不是滋味。",
+        "answer": null,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "User: Recently, a young colleague has joined the company. The leader always praises his strong work ability and often assigns him to be responsible for important projects. Although I am also working hard, I feel neglected and feel particularly uncomfortable in my heart.",
+        "answer": null,
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 16,
+      "dim": "Emotion Deepening",
+      "zh": {
+        "question": "用户：最近公司空降了一位年轻主管，他总是否定我的提案，还在会议上公开批评我。我感到既愤怒又自我怀疑，难道我的工作能力真的这么差吗？",
+        "answer": null,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "User: Recently, the company has hired a young supervisor who always denies my proposals and publicly criticizes me in meetings. I feel both angry and self doubting. Is my work ability really that poor?",
+        "answer": null,
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 17,
+      "dim": "Emotion Regulation",
+      "zh": {
+        "question": "用户：医生说我爸需要立即做心脏手术，但手术风险很高。我妈一直哭，我姐坚持要转院，而我完全不知道该听谁的。看着病床上虚弱的爸爸，我既害怕做错决定又恨自己不够果断……",
+        "answer": null,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "User: The doctor says my father needs immediate heart surgery, but the risk is very high. My mother has been crying, my sister insists on transferring hospitals, and I have no idea whose advice to follow... I am terrified of making the wrong call and I hate myself for not being more decisive..",
+        "answer": null,
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 18,
+      "dim": "Emotion Regulation",
+      "zh": {
+        "question": "用户：我在社区做志愿者时，遇到一位独居老人总是抱怨我们的服务不够周到。其他志愿者都避而远之，但我发现她其实很孤独。我很想帮助她，又担心自己处理不好反而让她更难过...",
+        "answer": null,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "User: When I was volunteering in the community, I encountered an elderly person living alone who always complained that our service was not attentive enough. Other volunteers avoided her, but I found that she was actually very lonely. I really want to help her, but I'm worried that if I don't handle it well, it might make her even more upset ..",
+        "answer": null,
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 19,
+      "dim": "Expression Naturalness",
+      "zh": {
+        "question": "爸妈又在深夜争吵，我躲在被窝里听见妈妈哭着说要离婚",
+        "answer": null,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "My parents were arguing late at night again, and I was hiding in bed when I heard my mother crying and saying she wanted a divorce",
+        "answer": null,
+        "secondary_answer": null
+      }
+    },
+    {
+      "id": 20,
+      "dim": "Expression Naturalness",
+      "zh": {
+        "question": "我鼓起勇气向最喜欢的语文老师请教作文问题，她却当众说'这种基础问题还要问？'，周围同学都笑出了声",
+        "answer": null,
+        "secondary_answer": null
+      },
+      "en": {
+        "question": "I gathered the courage to ask my favorite Chinese teacher for advice on essay questions, but she publicly said, 'Do you still need to ask such basic questions?'? The classmates around burst out laughing",
+        "answer": null,
+        "secondary_answer": null
+      }
+    }
+  ]
+}
