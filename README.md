@@ -1,6 +1,6 @@
 # FACET Evaluation Code
 
-This repository contains the cleaned evaluation code for FACET.
+This repository contains the mental test evaluation code for FACET.
 
 The code is organized into two parts:
 
