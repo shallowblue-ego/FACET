@@ -14,7 +14,7 @@ Generated outputs, caches, logs, notebooks, `.env` files, historical Excel files
 ## Repository Structure
 
 ```text
-code_mental_test/
+code_FACET/
 ├── objective_eval/
 │   └── objective_scoring.py          # Rule-based scoring functions for objective evaluation
 │
